@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: changeset/payment_V001_initial.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changeset/payment_V002_add_indexes.sql
+      relativeToChangelogFile: true
