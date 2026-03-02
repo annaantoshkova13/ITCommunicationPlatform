@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - include:
+      file: changeset/url_V001_initial.sql
+      relativeToChangelogFile: true

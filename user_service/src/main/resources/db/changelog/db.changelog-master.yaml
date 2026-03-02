@@ -1,0 +1,17 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/user_V001_initial.sql
+  - include:
+      file: db/changelog/changeset/user_V002_update_user_add_profile_pic.sql
+  - include:
+      file: db/changelog/changeset/user_V003_contact_preference.sql
+  - include:
+      file: db/changelog/changeset/user_V004_goals.sql
+  - include:
+      file: db/changelog/changeset/user_V005_insert_countries.sql
+  - include:
+      file: db/changelog/changeset/user_V006_insert_users.sql
+  - include:
+      file: db/changelog/changeset/user_V007_user_premium.sql
+  - include:
+      file: db/changelog/changeset/user_V008_add_personal_info_tables.sql
