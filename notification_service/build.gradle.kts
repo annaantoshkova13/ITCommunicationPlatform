@@ -31,6 +31,14 @@ dependencies {
     implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 
+    implementation("javax.xml.bind:jaxb-api:2.3.1")
+    implementation("org.glassfish.jaxb:jaxb-runtime:2.3.1")
+    implementation("com.sun.xml.bind:jaxb-impl:2.3.1")
+    implementation("javax.activation:activation:1.1.1")
+
+    implementation("jakarta.xml.bind:jakarta.xml.bind-api:4.0.0")
+    implementation("org.glassfish.jaxb:jaxb-runtime:4.0.0")
+
     /**
      * Database
      */
