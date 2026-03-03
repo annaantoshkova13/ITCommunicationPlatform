@@ -2,7 +2,6 @@ package org.example.achievement_service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.redis.testcontainers.RedisContainer;
-import faang.school.achievement.AchievementServiceApp;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +19,7 @@ import org.testcontainers.utility.DockerImageName;
 
 @SpringBootTest(
         classes = {
-                AchievementServiceApp.class
+                AchievementServiceApplication.class
         }
 )
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
