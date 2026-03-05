@@ -39,6 +39,7 @@ Each service follows the **Database-per-Service** pattern and can run independen
 - MapStruct  
 - Lombok
 - Docker
+- Kafka
 
 
 ---
